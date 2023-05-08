@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_cloudstorage_imageupload",
+  "version": "1.0.0",
+  "description": "Upload an Image to GCP object storage using express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-nyaga-gitonga:nyaga-gitonga/nodejs_cloudstorage_imageupload.git"
+  },
+  "author": "Julius Gitonga",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^6.4.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
